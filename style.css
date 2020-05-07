@@ -1,0 +1,360 @@
+body{
+    
+    direction: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+*{
+    box-sizing: border-box;
+
+    margin: 0px;
+    
+}
+
+
+.main12{
+
+   background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: flex-start;
+    
+}
+.main12child{
+   
+    width: 33.33%;
+    text-align: center;
+}
+.main12child ul .liq{
+    display: inline-block;
+    list-style: none;
+    padding:20px
+}
+.main12child span{
+    color: white;
+    
+
+}
+
+
+.ab{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.secNev{
+    
+ display: flex;   
+ width: 100%; 
+ border: 2px solid whitesmoke;
+ background-color: whitesmoke;
+ justify-content: space-between;
+
+}
+.secnevchild ul .b2{
+    list-style: none;
+    display: inline-block;
+    line-height: 40px;
+    padding: 10px;
+    
+        
+}
+.secnevchild ul .b2 a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+}
+.b2 a{
+    padding: 10px;
+    
+}
+
+
+.ul1{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.ul1 li{
+    float: left;
+    margin-top: 20px;
+
+}
+.ul1 li a{
+    
+    display: block;
+    text-decoration: none;
+    margin-top: -25px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    
+    color: black;
+    margin-left: -40px;
+}
+a:hover{
+    background-color: royalblue;
+    border-radius: 15px;
+        
+    
+}
+
+
+
+
+
+.intro {
+   color: royalblue;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.duction{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.int{
+    color: royalblue;
+}
+.marque{
+    background-color: royalblue;
+}
+.hi{
+    color: blue;
+}
+.d1{
+    color: greenyellow;
+}
+.details{
+    width: 70%;
+    text-align: left;
+    color: seagreen;
+}
+.daily ul{
+    width: 100%;
+    background-color: royalblue;
+
+}
+.dar{
+    text-align: center;
+    padding: 30px 30px;
+}
+.dar li{
+    display: inline-block;
+}
+
+@font-face{
+    font-family: Merriweather,serif;
+    src: url(Merriweather-Black.tff);
+}
+.daily ul li p{
+
+    font-family: Merriweather,serif;
+
+    
+    color: white;
+}
+.dar, .l, .da{
+    margin: 10px;
+}
+.num{
+    font-size: 2em;
+    font-weight: bolder;
+
+}
+.monthly{
+    font-weight: bold;
+    color: lightgreen;
+}
+.what{
+    color: royalblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.are{
+    color: seagreen;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.line{
+    color: seagreen;
+    font-weight: bolder;
+}
+.wrap{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     
+    border: whitesmoke;
+}
+.col{
+    width: 20%;
+    background-color: white;
+    margin-right: 30px;
+    text-align: center;
+    height: 190px;
+    padding-top: 30px;
+    border: 1px solid lightblue;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.box{
+    color: royalblue;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.parent{
+
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid white;
+    padding:32px;
+    background-color: white;
+    
+    margin-top: 30PX;
+        
+
+}
+.marq1{
+    height: 150px;
+}
+.child{
+    height: 50px;
+    width:30%;
+    display: inline-block;
+    margin:32px;
+    
+    margin-top: -20px;
+    text-align: center;
+
+    background-color: whitesmoke;
+    color: BLUE;
+ line-height: 50px;  
+ display: inline-block; 
+}
+.mission{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+aside{
+
+    width: 25%;
+    float: right;
+    padding: 10px;
+    height: 5%;
+    
+    
+}
+.gallery{
+width: 90%;
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+.gallery1{
+    width: 90%;
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+justify-content: center;
+}
+.img1{
+    font-size: 30px;
+    font-weight: bold;
+    color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gal1{
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img1, .im4{
+    text-align:center;
+}
+.footer{
+height: 30%;
+width: 33.33%;
+}
+.fl{
+    
+    list-style: none;
+}
+.mainfooter{
+    width: 100%;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.head2{
+    color: white;
+    font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   list-style: none;
+}
+
+.fl1{
+    color: white;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fl11{
+    color: white;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;  
+    margin-top: 40px;
+}
+
+@media(max-width: 768px){
+
+    .wrap{
+        display: block;
+        text-align: center;
+        width: 70%;
+        
+    }
+    .wrap .col{
+        margin-bottom: 40px;
+    }
+    .main12child{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .secNev{
+     display: block;
+     width: 100%;   
+    }
+    .child{
+        display: block;
+        width: 50%;
+    }
+    
+}
